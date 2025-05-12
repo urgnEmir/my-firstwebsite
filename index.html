@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body style="background-color: rgb(178, 44, 250);">
+    <h3>My Page</h3>
+    <br>
+    <p>Welcome to my web page!</p>
+    <hr>
+    <a href="https://www.youtube.com/@marvel"
+    target="_blank"
+    title="YouTube"
+    > YouTube</a>
+    <hr><br>
+
+    <div style="display: flex; justify-content: center;">
+
+        <a href="https://l24.im/QT81MF" target="_blank">
+            <img src="pictures/marvel.jpg" width="800"
+            alt="MARVEL" title="Marvel.com">
+        </a>
+    </div>
+
+
+     <br><br>
+    
+<div style="display: flex; justify-content: center;">
+    <audio src="musics/Marvel Intro.mp3" autoplay loop></audio>
+</div>
+
+
+
+    <br> <br>
+
+
+
+    <div style="display: flex; justify-content: center;">
+    <video src="videos/Marvel Opening Theme.mp4"
+     width="800" autoplay muted loop>
+    </video>
+    </div>
+
+
+     <br>
+     <br>
+
+    <h3>
+        <mark>CHARACTERS</mark>
+    </h3>
+
+    <ul>
+        <li>Captain America</li>
+        <li>Hulk</li>
+        <li>Iron Man</li>
+        <li>Scarlet Witch</li>
+        <li>Black Widow</li>
+        <li>Thor</li>
+    </ul>
+    </h3>
+
+    <ol type="1">
+        <li>Iron Man</li>
+        <li>Thor: The Dark World</li>
+        <li>Captain America: The Winter Soldier</li>
+    </ol>
+    <br>
+    <dl>
+        <dt>
+        <h2>Stan Lee:</h2>
+        </dt>
+        <dd>The creater of Marvel Universe</dd>
+    </dl>
+
+
+    <hr>
+    <h3>Wepons</h3>
+    <table bgcolor = "black" width="320">
+        <tr bgcolor = "grey" >
+            <th width="80">Captain America</th>
+            <th width="80">Thor</th>
+            <th width="80">Iron Man</th>
+            <th width="80">Scarlet Witch</th>
+        </tr>
+
+        <tr align="center" bgcolor = "lightgrey">
+            <td>Shield</td>
+            <td>Mjölnir</td>
+            <td>Armor</td>
+            <td>Magic</td>
+        </tr>
+    </table>
+
+    <br>
+
+
+
+
+
+    <a href="https://www.instagram.com/urgn_emircan/" target="_blank">
+        <button style="background-color: aqua;
+        color: rgb(0, 4, 7);
+        border-radius: 10px;">
+            My İnsta
+        </button>
+    </a>
+    <br>
+
+
+    <button onclick="MyClick()" style="background-color: black; color: brown; border-radius: 10px;">
+        <h2>Click</h2>
+    </button>
+
+    <p id="text">Click the button!</p>
+    <script>
+        function MyClick()
+        {
+            document.getElementById("text").innerHTML="Clicked"
+        }
+    </script>
+    <br>
+
+
+    <form action="">
+        <label for="Names">Name:</label>
+        <input type="text" name="Names" id="Names" placeholder="Emir" required>
+
+        <br>
+        <br>
+
+        <label for="Surnames">Surname:</label>
+        <input type="text" name="Surnames" id="Surnames" placeholder="Üregen" required>
+        <br>
+        <br>
+                <label for="Paswords">Pasword:</label>
+        <input type="password" name="Paswords" id="Paswords" maxlength="6">
+        <br>
+        <br>
+        <label for="mails">e-mail:</label>
+        <input type="email" name="mails" id="mails" placeholder="emiruregen@gmail.com">
+        <br><br>
+        <label for="Dates">Birthday:</label>
+        <input type="date" name="Dates" id="Dates">
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <label for="Woman">Woman</label>
+        <input type="radio" name="Gender" id="Woman" value="Woman">
+        <label for="Man">Man</label>
+        <input type="radio" name="Gender" id="Man" value="Man">
+        <br><br>
+        <label for="Fav.Chracter">Favori Character</label>
+        <select name="" id="Fav.Chracter" style="background-color:
+         chocolate;border-radius: 10px; width: 100px;height: 30px;">
+            <option value="Thor">Thor</option>
+            <option value="Captain America">Captain America</option>
+            <option value="Scarlet Witch">Scarlet Witch</option>
+            <option value="Iron Man">Iron Man</option>
+            <option value="Hulk">Hulk</option>
+
+        </select>
+        <input type="reset">
+        <input type="submit">
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <iframe src="https://www.wikipedia.org"
+    width="600" height="400"
+    frameborder="5"">
+    </iframe>
+    <br>
+    <br>
+
+    <div style="background-color: aqua;">whole line</div>
+    <br>
+    <span style="background-color: aqua;">only its own space</span>
+
+
+
+
+
+
+
+
+
+    <p>
+        This is a learning project
+    </p>
+    
+</body>
+</html>
+
